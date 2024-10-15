@@ -1,4 +1,4 @@
-class base {
+class profile::base {
   package { 'vim':
     ensure => present,
   }
