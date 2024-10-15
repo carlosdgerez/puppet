@@ -1,3 +1,4 @@
 ---
 name: puppet_course
-modules: []
+modules:
+- puppetlabs/apache
