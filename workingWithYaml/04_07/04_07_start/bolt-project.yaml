@@ -1,4 +1,0 @@
----
-name: puppet_course
-modules:
-- puppetlabs/apache
