@@ -2,6 +2,7 @@ groups:
   - name: linux
     targets:
       - puppet.local
+      - web.local
     config:
       transport: ssh
       ssh:
