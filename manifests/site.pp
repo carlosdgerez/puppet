@@ -1,2 +1,1 @@
-include profile::base
-include profile::website
+include role::webserver
