@@ -5,7 +5,8 @@ BOX = "bento/ubuntu-22.04"
 
 Vagrant.configure("2") do |config|
   config.vm.box = BOX
-
+  #config.ssh.forward_agent = true
+  #config.ssh.timeout = 300
   config.vm.define :puppet do |puppet|
     puppet.vm.network :private_network, ip: "10.0.56.10"
     puppet.vm.network "forwarded_port", guest: 80, host: 8080
